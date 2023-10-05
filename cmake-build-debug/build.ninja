@@ -51,7 +51,8 @@ build cmake_object_order_depends_target_FirstEncounter: phony || CMakeFiles/Firs
 
 build CMakeFiles/FirstEncounter.dir/main.cpp.o: CXX_COMPILER__FirstEncounter_Debug /Users/wizet/Documents/CPP/FirstEncounter/main.cpp || cmake_object_order_depends_target_FirstEncounter
   DEP_FILE = CMakeFiles/FirstEncounter.dir/main.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/opt/homebrew/Cellar/libevent/2.1.12/include -I/opt/homebrew/Cellar/mongoose/7.7/include
   OBJECT_DIR = CMakeFiles/FirstEncounter.dir
   OBJECT_FILE_DIR = CMakeFiles/FirstEncounter.dir
   TARGET_COMPILE_PDB = CMakeFiles/FirstEncounter.dir/
@@ -65,8 +66,9 @@ build CMakeFiles/FirstEncounter.dir/main.cpp.o: CXX_COMPILER__FirstEncounter_Deb
 #############################################
 # Link the executable FirstEncounter
 
-build FirstEncounter: CXX_EXECUTABLE_LINKER__FirstEncounter_Debug CMakeFiles/FirstEncounter.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
+build FirstEncounter: CXX_EXECUTABLE_LINKER__FirstEncounter_Debug CMakeFiles/FirstEncounter.dir/main.cpp.o | /opt/homebrew/Cellar/libevent/2.1.12/lib/libevent.a /opt/homebrew/Cellar/mongoose/7.7/lib/libmongoose.dylib
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0
+  LINK_LIBRARIES = /opt/homebrew/Cellar/libevent/2.1.12/lib/libevent.a  /opt/homebrew/Cellar/mongoose/7.7/lib/libmongoose.dylib
   OBJECT_DIR = CMakeFiles/FirstEncounter.dir
   POST_BUILD = :
   PRE_LINK = :

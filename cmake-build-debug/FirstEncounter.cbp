@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FirstEncounter"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FirstEncounter">
+				<Option output="/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/FirstEncounter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/libevent/2.1.12/include"/>
+					<Add directory="/opt/homebrew/Cellar/mongoose/7.7/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 FirstEncounter"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FirstEncounter/fast">
+				<Option output="/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/FirstEncounter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/libevent/2.1.12/include"/>
+					<Add directory="/opt/homebrew/Cellar/mongoose/7.7/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 FirstEncounter/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/Stack/Stack.cpp">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/Stack/Stack.h">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/Stack/Stack2.cpp">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/Stack/Stack2.h">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/animal/Animal.cpp">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/animal/Animal.h">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/animal/Lion.cpp">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/animal/Lion.h">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/animal/Tiger.cpp">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/animal/Tiger.h">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/date/WZDate.cpp">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/date/WZDate.h">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/decimal/Decimal.cpp">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/decimal/Decimal.h">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/generic/generic.cpp">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/generic/generic.h">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/main.cpp">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/stock/Stock.cpp">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/stock/Stock.h">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/string/aString.cpp">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/string/aString.h">
+			<Option target="FirstEncounter"/>
+		</Unit>
+		<Unit filename="/Users/wizet/Documents/CPP/FirstEncounter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
