@@ -1,0 +1,64 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "FirstEncounter",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "FirstEncounter::@6890427a1f51a3e7e1df",
+<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-88237b3174f8e3860df0.json
+					"jsonFile" : "target-FirstEncounter-Debug-e46d3e6c684d0d1e9210.json",
+=======
+					"jsonFile" : "target-FirstEncounter-Debug-45b9a1e3b719e99c96f4.json",
+>>>>>>> 010cf3d49a9e0ecec6eda6c711013a56a22a3b76:cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-7c46a2da279f282d4c51.json
+					"name" : "FirstEncounter",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/wizet/Documents/CPP/FirstEncounter/cmake-build-debug",
+		"source" : "/Users/wizet/Documents/CPP/FirstEncounter"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -3,7 +3,7 @@ project(FirstEncounter)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(FirstEncounter main.cpp)
+add_executable(FirstEncounter main.cpp animal/Lion.cpp animal/Lion.h animal/Tiger.cpp animal/Tiger.h animal/Animal.cpp animal/Animal.h date/WZDate.cpp date/WZDate.h decimal/Decimal.cpp decimal/Decimal.h stock/Stock.cpp stock/Stock.h Stack/Stack.cpp Stack/Stack.h Stack/Stack2.cpp Stack/Stack2.h string/aString.cpp string/aString.h generic/generic.cpp generic/generic.h)
 
 #FIXME: 此处是写死的路径使用的第三方，应该是错误的操作
 set(LIBEVENT_PATH /opt/homebrew/Cellar/libevent/2.1.12)
