@@ -5,6 +5,7 @@
 #ifndef FIRSTENCOUNTER_STRING_ASTRING_H_
 #define FIRSTENCOUNTER_STRING_ASTRING_H_
 
+#include <iostream>
 #include <string>
 class aString {
 
@@ -15,7 +16,7 @@ class aString {
       std::string text = "The quick brown fox";
       size_t found = text.find("quick"); // 查找子字符串
       if (found != std::string::npos) {
-        // 子字符串找到了
+        std::cout << "子字符串找到了" << std::endl;
       }
     }
 
@@ -25,7 +26,7 @@ class aString {
     }
 
     { // 转换为字符串
-      std::to_string(1);
+      auto to_string_result = std::to_string(1.22); // 怎么转换精度哪？
     }
 
     { // 迭代访问字符串

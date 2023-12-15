@@ -5,10 +5,15 @@
 #ifndef FIRSTENCOUNTER_DECIMAL_DECIMAL_H_
 #define FIRSTENCOUNTER_DECIMAL_DECIMAL_H_
 
+#include <iomanip>
 #include <iostream>
+#include <sstream>
 class Decimal {
- public:
 
+ private:
+  int c = 1;//默认初始化
+
+ public:
   // 精度保留处理
   void tmp() {
 
@@ -36,6 +41,23 @@ class Decimal {
     // restore original format;
     std::cout.setf(orgFlags);
     std::cout.precision(orgPrec);
+  }
+
+
+  /// double保留指定位数的小数位
+  std::string doubleToStringWithPrecision(double value, int precision) {
+
+    //ss.precision(2);
+    // 使用 std::setprecision 设置小数位数
+    std::stringstream ss;
+    ss << std::fixed << std::setprecision(precision) << value;
+
+
+    // ss.setf(std::ios_base::fixed);  与 ss << std::fixed 是同一个意思，std::ios_base::fixed：表示浮点数以固定点表示法输出。
+    // ss.precision(precision); 同样
+
+
+    return ss.str();
   }
 };
 
